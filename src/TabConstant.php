@@ -5,7 +5,10 @@ namespace CodexSoft\Shortcut;
 class TabConstant
 {
 
-    public static function register(): void
+    /**
+     * @return void
+     */
+    public static function register()
     {
         // do nothing but inits class loading with functions
     }
